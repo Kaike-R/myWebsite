@@ -1,0 +1,17 @@
+<p>
+    <mat-toolbar color="primary" class="navbar">
+    <button mat-icon-button color="accent" (click)="sidemode()">
+        <mat-icon>menu</mat-icon>
+    </button>
+      <div>My Application</div>
+
+      <div>
+        <span>Home</span>
+        <span>info</span>
+        <a>{{ opened }}</a>
+
+      </div>
+    </mat-toolbar>
+    <m-sidebar [opened]="opened"></m-sidebar>
+</p>
+
